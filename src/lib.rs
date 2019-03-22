@@ -166,6 +166,7 @@ pub use self::filters::{
     // ws() function
     ws::{ws, ws2},
 };
+pub use self::generic::Either;
 #[doc(hidden)]
 pub use self::redirect::redirect;
 #[doc(hidden)]

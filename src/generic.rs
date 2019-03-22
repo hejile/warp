@@ -8,6 +8,7 @@ pub(crate) fn one<T>(val: T) -> One<T> {
     (val,)
 }
 
+#[allow(missing_docs)]
 #[derive(Debug)]
 pub enum Either<T, U> {
     A(T),
