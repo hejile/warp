@@ -2,6 +2,7 @@
 #![deny(missing_docs)]
 #![deny(missing_debug_implementations)]
 #![cfg_attr(test, deny(warnings))]
+#![allow(missing_docs)]
 
 //! # warp
 //!
@@ -116,7 +117,7 @@ pub mod redirect;
 pub mod reject;
 pub mod reply;
 mod route;
-mod server;
+pub mod server;
 pub mod test;
 #[cfg(feature = "tls")]
 mod tls;
